@@ -14,7 +14,7 @@
 
 <div align="center">
   <br/>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=500&lines=Full-Stack+Web+Developer;Building+scalable+applications;Open+Source+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=500&lines=Full-Stack+Web+Developer;Building+scalable+applications;Open+Source+Enthusiast" alt="Typing SVG" />
 </div>
 
 ---
@@ -24,7 +24,7 @@
 * 🚀 I’m currently building robust scalable backend systems and beautiful UIs.
 * 🧠 I’m deeply interested in Software Architecture, Next.js, Go, and DevOps.
 * 💬 Ask me about **JavaScript, React, Node.js, Python, or Linux Server Admin**.
-* 📫 How to reach me: [My Website/Portfolio](https://hafezmosleh.dev) (Placeholder)
+* 📫 How to reach me: [My Website/Portfolio](https://hafezmosleh.dev)
 
 ---
 
@@ -61,7 +61,6 @@
 ---
 
 ### 🐍 GitHub Contribution Snake
-<!-- The snake will appear here once GitHub Actions runs -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HafezMosleh/HafezMosleh/output/github-contribution-grid-snake-dark.svg">
