@@ -14,6 +14,7 @@
 
 <div align="center">
   <br/>
+  <!-- Using reliable git.io for typing text instead of vercel/heroku -->
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=500&lines=Full-Stack+Web+Developer;Building+scalable+applications;Open+Source+Enthusiast" alt="Typing SVG" />
 </div>
 
@@ -43,19 +44,21 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 My GitHub Journey
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HafezMosleh&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" alt="Hafez's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HafezMosleh&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" width="48%" />
+  <!-- Alternative 1: Metrics generated natively without vercel dependencies -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HafezMosleh&theme=dracula" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=HafezMosleh&theme=dracula" width="48%" />
 </div>
 
 ---
 
-### 🏆 GitHub Trophies
+### 🏆 Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HafezMosleh&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
+  <!-- GitHub Activity Graph as an alternative to Vercel Trophies -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HafezMosleh&theme=react-dark&hide_border=true&area=true" width="100%" />
 </div>
 
 ---
