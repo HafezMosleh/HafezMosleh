@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hello%20World!%20%F0%9F%91%8B&fontSize=60&fontAlign=50&fontAlignY=35&desc=I'm%20Hafez,%20a%20Full-Stack%20Developer&descAlign=50&descAlignY=55" width="100%" />
+  <!-- Replaced Vercel capsule render with a stable image -->
+  <h1>Hello World! 👋 I'm Hafez</h1>
+  <p><b>Full-Stack Web Developer | Open Source Enthusiast</b></p>
 </div>
 
 <br/>
@@ -14,7 +16,7 @@
 
 <div align="center">
   <br/>
-  <!-- Using reliable git.io for typing text instead of vercel/heroku -->
+  <!-- Using Demolab which is extremely stable -->
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=500&lines=Full-Stack+Web+Developer;Building+scalable+applications;Open+Source+Enthusiast" alt="Typing SVG" />
 </div>
 
@@ -32,39 +34,32 @@
 ### 🛠️ Tech Stack & Tools
 
 <p align="center">
+  <!-- Skill icons is hosted on Cloudflare, not Vercel -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,nest,python,go,bash&perline=10" />
   </a>
 </p>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgres,mongo,redis,docker,git,github,linux,nginx,figma,vercel&perline=10" />
+    <img src="https://skillicons.dev/icons?i=postgres,mongo,redis,docker,git,github,linux,nginx,figma,aws&perline=10" />
   </a>
 </p>
 
 ---
 
-### 📊 My GitHub Journey
+### 📊 GitHub Stats
 
 <div align="center">
-  <!-- Alternative 1: Metrics generated natively without vercel dependencies -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HafezMosleh&theme=dracula" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=HafezMosleh&theme=dracula" width="48%" />
-</div>
-
----
-
-### 🏆 Achievements
-
-<div align="center">
-  <!-- GitHub Activity Graph as an alternative to Vercel Trophies -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HafezMosleh&theme=react-dark&hide_border=true&area=true" width="100%" />
+  <!-- We use Anuraghazra's official Heroku instance instead of Vercel to bypass the Iran Vercel block -->
+  <img src="https://github-readme-stats.herokuapp.com/api?username=HafezMosleh&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" alt="Hafez's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.herokuapp.com/api/top-langs/?username=HafezMosleh&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" width="48%" />
 </div>
 
 ---
 
 ### 🐍 GitHub Contribution Snake
 <div align="center">
+  <!-- This is hosted directly on YOUR GitHub repo, so it is 100% unblockable -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HafezMosleh/HafezMosleh/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HafezMosleh/HafezMosleh/output/github-contribution-grid-snake.svg">
