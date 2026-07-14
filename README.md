@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=DynaPuff&size=35&center=true&vCenter=true&width=900&height=70&duration=4000&lines=Hello+There!+👋;+I'm+Hafez+Mosleh+!;" alt="Hello There! I'm Hafez Mosleh!" />
+  <img src="https://readme-typing-svg.demolab.com/?font=DynaPuff&size=35&center=true&vCenter=true&width=900&height=70&duration=4000&lines=Hello+There!+👋;+I'm+Hafez+Mosleh+!;" alt="Hello There! I'm Hafez Mosleh!" />
 </div>
 
 <div align="center">
@@ -17,11 +17,11 @@
 <div align="center">
 <table width="100%" border="0" cellspacing="0" cellpadding="4">
   <tr>
-    <td align="center"><img width="100%" height="32" alt="Languages" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=240&lines=Languages"/></td>
-    <td align="center"><img width="100%" height="32" alt="Frontend/Mobile" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=280&lines=Frontend%2FMobile"/></td>
-    <td align="center"><img width="100%" height="32" alt="Backend" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Backend"/></td>
-    <td align="center"><img width="100%" height="32" alt="Infrastructure" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=320&lines=Infrastructure"/></td>
-    <td align="center"><img width="100%" height="32" alt="AI and Workflow" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=260&lines=AI+%26+Workflow"/></td>
+    <td align="center"><img width="100%" height="32" alt="Languages" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=240&lines=Languages"/></td>
+    <td align="center"><img width="100%" height="32" alt="Frontend/Mobile" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=280&lines=Frontend%2FMobile"/></td>
+    <td align="center"><img width="100%" height="32" alt="Backend" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Backend"/></td>
+    <td align="center"><img width="100%" height="32" alt="Infrastructure" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=320&lines=Infrastructure"/></td>
+    <td align="center"><img width="100%" height="32" alt="AI and Workflow" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=260&lines=AI+%26+Workflow"/></td>
   </tr>
   <tr>
     <td align="center"><img alt="TypeScript, JavaScript" src="https://skillicons.dev/icons?i=ts,js"/></td>
@@ -51,15 +51,16 @@
 
 <div align="center">
   <p align="center">
-    <img src="https://raw.githubusercontent.com/HafezMosleh/HafezMosleh/output/github-profile-trophy.svg" alt="GitHub Trophies" onerror="this.src='https://github-profile-trophy.vercel.app/?username=HafezMosleh&theme=radical&no-frame=true&no-bg=true&margin-w=15'" />
+    <!-- Using herokuapp which works in Iran -->
+    <img src="https://github-profile-trophy.herokuapp.com/?username=HafezMosleh&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
   </p>
 </div>
 
 <div style="height: 8px;"></div>
 
 <div align="center">
-  <!-- Fallback to live URL if the action hasn't generated the SVG yet -->
-  <img height="195" alt="HafezMosleh GitHub stats panel" src="https://raw.githubusercontent.com/HafezMosleh/HafezMosleh/output/github-stats-panel.svg" onerror="this.src='https://github-readme-stats.herokuapp.com/api?username=HafezMosleh&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true'" />
+  <!-- Using herokuapp which works in Iran -->
+  <img height="195" alt="HafezMosleh GitHub stats panel" src="https://github-readme-stats.herokuapp.com/api?username=HafezMosleh&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" />
 </div>
 
 <div style="height: 8px;"></div>
@@ -72,4 +73,5 @@
   <br/><br/>
 </div>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Welcome&fontAlign=50&textBg=false&rotate=0&strokeWidth=0&reversal=true&section=footer&fontAlignY=61&descAlign=0&descAlignY=0"/>
+<!-- Using alternative wave image server to bypass Vercel -->
+<img width=100% src="https://waving-capsule.deno.dev/api?type=waving&height=200&color=gradient&text=Welcome&fontAlign=50&textBg=false&rotate=0&strokeWidth=0&reversal=true&section=footer&fontAlignY=61&descAlign=0&descAlignY=0"/>
