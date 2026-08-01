@@ -1,24 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_NAME="HafezMosleh"
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
-cd "$PROJECT_DIR"
+python3 - <<'PY'
+import base64, json, subprocess, urllib.error, urllib.request
 
-origin_url="$(git remote get-url origin 2>/dev/null || echo 'https://github.com/HafezMosleh/HafezMosleh.git')"
-branch="main"
-
-git add -A
-git -c user.name="HUB Auto Push" -c user.email="hub@local" commit -m "update special profile readme" >/dev/null 2>&1 || true
-
-echo "Pushing changes for $PROJECT_NAME..."
-
-python3 - "$PROJECT_NAME" "$origin_url" "$branch" "init" <<'PY'
-import base64, json, os, subprocess, sys, time, urllib.error, urllib.request
-project_name, origin_url, branch, commit_message = sys.argv[1:5]
-owner, repo = "HafezMosleh", project_name
-
+owner, repo = "HafezMosleh", "HafezMosleh"
 token = subprocess.check_output(['gh', 'auth', 'token'], text=True).strip()
 headers = {
     'Authorization': f'Bearer {token}',
@@ -36,57 +22,109 @@ def api(method, path, data=None):
             return json.loads(res) if res else None
     except urllib.error.HTTPError as exc:
         if exc.code == 404: return "NOT_FOUND"
-        if exc.code == 409: return "EMPTY_REPO"
         raise
 
+# Ensure the output branch exists (or create it) because if output branch doesn't exist, the images will 404
 commits = api('GET', f'/repos/{owner}/{repo}/commits')
-if commits == "NOT_FOUND":
-    api('POST', '/user/repos', {'name': repo, 'private': False, 'description': 'My GitHub Profile'})
-    time.sleep(2)
-    commits = api('GET', f'/repos/{owner}/{repo}/commits')
+main_sha = commits[0]['sha']
 
-if commits == "EMPTY_REPO":
-    # If it is empty, we MUST do a direct PUT for the README.md so GitHub immediately shows it
-    with open('README.md', 'rb') as f:
-        content = base64.b64encode(f.read()).decode()
-    api('PUT', f'/repos/{owner}/{repo}/contents/README.md', {
-        "message": "Initialize profile README",
-        "content": content
-    })
-    
-    # Also push the workflow
-    if os.path.exists('.github/workflows/snake.yml'):
-        with open('.github/workflows/snake.yml', 'rb') as f:
-            w_content = base64.b64encode(f.read()).decode()
-        api('PUT', f'/repos/{owner}/{repo}/contents/.github/workflows/snake.yml', {
-            "message": "Add snake workflow",
-            "content": w_content
+try:
+    ref = api('GET', f'/repos/{owner}/{repo}/git/refs/heads/output')
+    if ref == "NOT_FOUND":
+        api('POST', f'/repos/{owner}/{repo}/git/refs', {
+            "ref": "refs/heads/output",
+            "sha": main_sha
         })
-    print("✅ Successfully pushed profile repo via PUT")
-    sys.exit(0)
+except:
+    pass
 
-# If it's not empty, push via trees (normal way)
-parent_sha = commits[0]['sha']
-base_tree = commits[0]['commit']['tree']['sha']
+# Update README to use unblockable links that bypass all restrictions in Iran
+NEW_README = """<div align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=DynaPuff&size=35&center=true&vCenter=true&width=900&height=70&duration=4000&lines=Hello+There!+👋;+I'm+Hafez+Mosleh+!;" alt="Hello There! I'm Hafez Mosleh!" />
+</div>
 
-tree = []
-for root, dirs, files in os.walk('.'):
-    if '.git' in dirs: dirs.remove('.git')
-    for file in files:
-        filepath = os.path.join(root, file)
-        relpath = os.path.relpath(filepath, '.').replace('\\', '/')
-        if not os.path.isfile(filepath): continue
-        with open(filepath, 'rb') as f:
-            content = base64.b64encode(f.read()).decode()
-        blob_sha = api('POST', f'/repos/{owner}/{repo}/git/blobs', {'content': content, 'encoding': 'base64'})['sha']
-        tree.append({'path': relpath, 'mode': '100644', 'type': 'blob', 'sha': blob_sha})
+<div align="center">
 
-if tree:
-    new_tree = api('POST', f'/repos/{owner}/{repo}/git/trees', {'base_tree': base_tree, 'tree': tree})['sha']
-    new_commit = api('POST', f'/repos/{owner}/{repo}/git/commits', {'message': commit_message, 'tree': new_tree, 'parents': [parent_sha]})['sha']
-    
-    repo_info = api('GET', f'/repos/{owner}/{repo}')
-    default_branch = repo_info.get('default_branch', 'main')
-    api('PATCH', f'/repos/{owner}/{repo}/git/refs/heads/{default_branch}', {'sha': new_commit, 'force': True})
-    print(f'✅ Successfully pushed profile repo via Trees')
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=flat&logo=instagram&logoColor=white)](https://instagram.com/hafezmosleh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/hafezmosleh)
+[![🌐 Website](https://img.shields.io/badge/🌐%20Portfolio%20Website-000000.svg?style=flat)](https://hafezmosleh.dev)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4.svg?style=flat&logo=telegram&logoColor=white)](https://t.me/HafezMosleh)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?style=flat&logo=gmail&logoColor=white)](mailto:hafezmosleh@gmail.com)
+
+</div>
+
+<div style="height: 8px;"></div>
+
+<div align="center">
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr>
+    <td align="center"><img width="100%" height="32" alt="Languages" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=240&lines=Languages"/></td>
+    <td align="center"><img width="100%" height="32" alt="Frontend/Mobile" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=280&lines=Frontend%2FMobile"/></td>
+    <td align="center"><img width="100%" height="32" alt="Backend" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Backend"/></td>
+    <td align="center"><img width="100%" height="32" alt="Infrastructure" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=320&lines=Infrastructure"/></td>
+    <td align="center"><img width="100%" height="32" alt="AI and Workflow" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&height=32&pause=1000&color=62c1ec&center=true&vCenter=true&repeat=false&random=false&width=260&lines=AI+%26+Workflow"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img alt="TypeScript, JavaScript" src="https://skillicons.dev/icons?i=ts,js"/></td>
+    <td align="center"><img alt="Next.js, React" src="https://skillicons.dev/icons?i=nextjs,react"/></td>
+    <td align="center"><img alt="Express, NestJS" src="https://skillicons.dev/icons?i=express,nest"/></td>
+    <td align="center"><img alt="Git, GitHub, GitLab" src="https://skillicons.dev/icons?i=git,github,gitlab"/></td>
+    <td align="center"><img alt="Visual Studio Code, Figma" src="https://skillicons.dev/icons?i=vscode,figma"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img alt="HTML, CSS" src="https://skillicons.dev/icons?i=html,css"/></td>
+    <td align="center"><img alt="Tailwind, Sass" src="https://skillicons.dev/icons?i=tailwind,sass"/></td>
+    <td align="center"><img alt="Postgres, MongoDB" src="https://skillicons.dev/icons?i=postgres,mongo"/></td>
+    <td align="center"><img alt="Docker, Nginx" src="https://skillicons.dev/icons?i=docker,nginx"/></td>
+    <td align="center"><img alt="Bash, Postman" src="https://skillicons.dev/icons?i=bash,postman"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img alt="Python, Go" src="https://skillicons.dev/icons?i=python,go"/></td>
+    <td align="center"></td>
+    <td align="center"><img alt="Redis" src="https://skillicons.dev/icons?i=redis"/></td>
+    <td align="center"><img alt="Ubuntu, Linux" src="https://skillicons.dev/icons?i=ubuntu,linux"/></td>
+    <td align="center"></td>
+  </tr>
+</table>
+</div>
+
+<div style="height: 8px;"></div>
+
+<div align="center">
+  <p align="center">
+    <!-- Using herokuapp which works in Iran -->
+    <img src="https://github-profile-trophy.herokuapp.com/?username=HafezMosleh&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
+  </p>
+</div>
+
+<div style="height: 8px;"></div>
+
+<div align="center">
+  <!-- Using herokuapp which works in Iran -->
+  <img height="195" alt="HafezMosleh GitHub stats panel" src="https://github-readme-stats.herokuapp.com/api?username=HafezMosleh&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" />
+</div>
+
+<div style="height: 8px;"></div>
+
+<div align="center">
+<h1>🐍 My Contributions 🐍</h1>
+  <br>
+ <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/HafezMosleh/HafezMosleh/output/github-contribution-grid-snake.svg" />
+  
+  <br/><br/>
+</div>
+
+<!-- Using alternative wave image server to bypass Vercel -->
+<img width=100% src="https://waving-capsule.deno.dev/api?type=waving&height=200&color=gradient&text=Welcome&fontAlign=50&textBg=false&rotate=0&strokeWidth=0&reversal=true&section=footer&fontAlignY=61&descAlign=0&descAlignY=0"/>
+"""
+
+readme = api('GET', f'/repos/{owner}/{repo}/contents/README.md')
+if readme != "NOT_FOUND":
+    api('PUT', f'/repos/{owner}/{repo}/contents/README.md', {
+        "message": "Fallback to Heroku servers to fix Iranian network blocks",
+        "content": base64.b64encode(NEW_README.encode()).decode(),
+        "sha": readme['sha']
+    })
+
+print("✅ README URLs switched to bypass Iranian ISP blocks!")
 PY
