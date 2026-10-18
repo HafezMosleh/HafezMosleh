@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## اول مسئله، بعد ابزار
+## آدم یک جمله را یادش می‌ماند
 
-قبل از انتخاب ابزار باید بتوانی مسئله را در یک جمله بگویی. صاحبش کیست، کجا گیر کرده، و اگر حل نشود چه هزینه‌ای می‌دهد.
+اگر معرفی‌ات بیشتر از یک نفس طول بکشد، طرف هیچ‌چیز را نگه نمی‌دارد. اسم باید به یک کار وصل باشد.
 
-جمله که روشن شد، ابزار فقط وسیله است. جمله که نباشد، هر ساختنی شلوغی است.
+بقیهٔ کارها نمونه‌اند. جملهٔ اصلی همان است که فردا هم می‌توانی تکرار کنی، بدون اینکه عوضش کنی.
 
-_The problem comes before the tool_
+_People remember one sentence_
 
-Before picking a tool, you should be able to say the problem in one sentence. Who owns it, where it sticks, and what it costs if it stays.
+If the introduction takes more than one breath, nothing sticks. A name has to attach to one kind of work.
 
-Once that sentence is clear, the tool is only a means. Without it, building is just noise.
+The rest is evidence. The main sentence is the one you can repeat tomorrow without changing it.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/problem-before-tool) · 2026-10-17
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/one-sentence-memory) · 2026-10-18
