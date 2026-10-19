@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## آدم یک جمله را یادش می‌ماند
+## تمام شدن، خودش مدرک است
 
-اگر معرفی‌ات بیشتر از یک نفس طول بکشد، طرف هیچ‌چیز را نگه نمی‌دارد. اسم باید به یک کار وصل باشد.
+نسخه‌ای که دست آدم رسیده، از نقشه‌ای که فقط توضیح داده شده قوی‌تر است. مخاطب نتیجه را می‌بیند، نه نیت را.
 
-بقیهٔ کارها نمونه‌اند. جملهٔ اصلی همان است که فردا هم می‌توانی تکرار کنی، بدون اینکه عوضش کنی.
+برای همین هر روز یک تکه را تمام کن. نه یک تکهٔ بزرگ. یک تکه که بشود نشان داد.
 
-_People remember one sentence_
+_Finishing is the proof_
 
-If the introduction takes more than one breath, nothing sticks. A name has to attach to one kind of work.
+A version someone can open beats a plan that only gets explained. People see the result, not the intention.
 
-The rest is evidence. The main sentence is the one you can repeat tomorrow without changing it.
+So finish one piece a day. Not a big piece. A piece you can show.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/one-sentence-memory) · 2026-10-18
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/shipping-is-the-proof) · 2026-10-19
