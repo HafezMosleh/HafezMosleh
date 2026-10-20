@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## تمام شدن، خودش مدرک است
+## تصمیم یعنی حذف
 
-نسخه‌ای که دست آدم رسیده، از نقشه‌ای که فقط توضیح داده شده قوی‌تر است. مخاطب نتیجه را می‌بیند، نه نیت را.
+لیست بلند، تصمیم نیست. تصمیم آنجاست که یک چیز بماند و بقیه بروند عقب.
 
-برای همین هر روز یک تکه را تمام کن. نه یک تکهٔ بزرگ. یک تکه که بشود نشان داد.
+حذف کردن بی‌احترامی به کار قبلی نیست. جا باز کردن برای کاری است که باید دیده شود.
 
-_Finishing is the proof_
+_A decision is a deletion_
 
-A version someone can open beats a plan that only gets explained. People see the result, not the intention.
+A long list is not a decision. A decision is when one thing stays and the rest step back.
 
-So finish one piece a day. Not a big piece. A piece you can show.
+Cutting is not an insult to earlier work. It makes room for the thing that has to be seen.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/shipping-is-the-proof) · 2026-10-19
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/delete-to-decide) · 2026-10-20
