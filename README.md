@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## تصمیم یعنی حذف
+## اسم را عوض نکن
 
-لیست بلند، تصمیم نیست. تصمیم آنجاست که یک چیز بماند و بقیه بروند عقب.
+حافظ مصلح و Hafez Mosleh. همین. یک حرف اضافه یا یک اسم دیگر، تو را به دو آدم تبدیل می‌کند.
 
-حذف کردن بی‌احترامی به کار قبلی نیست. جا باز کردن برای کاری است که باید دیده شود.
+عکس، بیو، و لینک سایت هم باید همان آدم را نشان بدهند. وگرنه جستجو پخش می‌شود.
 
-_A decision is a deletion_
+_Do not change the name_
 
-A long list is not a decision. A decision is when one thing stays and the rest step back.
+Hafez Mosleh and حافظ مصلح. That is the pair. One extra letter, or a second name, splits you into two people.
 
-Cutting is not an insult to earlier work. It makes room for the thing that has to be seen.
+The photo, the bio, and the site link have to point at the same person. Otherwise search scatters.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/delete-to-decide) · 2026-10-20
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/one-name) · 2026-10-21
