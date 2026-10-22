@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## اسم را عوض نکن
+## توجه گران است
 
-حافظ مصلح و Hafez Mosleh. همین. یک حرف اضافه یا یک اسم دیگر، تو را به دو آدم تبدیل می‌کند.
+صفحهٔ اول باید در چند ثانیه بگوید کی هستی. اگر مجبور شوی توضیح بدهی که توضیح یعنی چه، صفحه شلوغ است.
 
-عکس، بیو، و لینک سایت هم باید همان آدم را نشان بدهند. وگرنه جستجو پخش می‌شود.
+توجه را برای جملهٔ اصلی نگه دار. جزئیات مال صفحهٔ بعد است.
 
-_Do not change the name_
+_Attention is expensive_
 
-Hafez Mosleh and حافظ مصلح. That is the pair. One extra letter, or a second name, splits you into two people.
+The first screen has to say who you are in a few seconds. If you must explain the explanation, the page is crowded.
 
-The photo, the bio, and the site link have to point at the same person. Otherwise search scatters.
+Save attention for the main sentence. Detail belongs on the next page.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/one-name) · 2026-10-21
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/attention-is-expensive) · 2026-10-22
