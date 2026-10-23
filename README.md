@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## توجه گران است
+## برای یک نفر بنویس
 
-صفحهٔ اول باید در چند ثانیه بگوید کی هستی. اگر مجبور شوی توضیح بدهی که توضیح یعنی چه، صفحه شلوغ است.
+یک مخاطب مشخص را تصور کن. همان کسی که مسئله را دارد. برای او بنویس، نه برای جمعیت فرضی.
 
-توجه را برای جملهٔ اصلی نگه دار. جزئیات مال صفحهٔ بعد است.
+اگر آن یک نفر متن را بفهمد، بقیهٔ همان جمع هم می‌فهمند. برعکسش درست نیست.
 
-_Attention is expensive_
+_Write for one person_
 
-The first screen has to say who you are in a few seconds. If you must explain the explanation, the page is crowded.
+Picture one reader. The person who actually has the problem. Write for them, not for an imaginary crowd.
 
-Save attention for the main sentence. Detail belongs on the next page.
+If that one person understands it, the rest of that group will too. The reverse is not true.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/attention-is-expensive) · 2026-10-22
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/write-for-one) · 2026-10-23
