@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## برای یک نفر بنویس
+## وقتی تمام شد نشان بده
 
-یک مخاطب مشخص را تصور کن. همان کسی که مسئله را دارد. برای او بنویس، نه برای جمعیت فرضی.
+لازم نیست هر قدم را وسط راه اعلام کنی. یک خروجی قابل دیدن کافی است: یک صفحه، یک متن، یک نسخه.
 
-اگر آن یک نفر متن را بفهمد، بقیهٔ همان جمع هم می‌فهمند. برعکسش درست نیست.
+اعتماد از تکرار همین تحویل‌ها ساخته می‌شود، نه از هیجان شروع.
 
-_Write for one person_
+_Show it when it is done_
 
-Picture one reader. The person who actually has the problem. Write for them, not for an imaginary crowd.
+You do not need to announce every step in the middle. One visible output is enough: a page, a note, a version.
 
-If that one person understands it, the rest of that group will too. The reverse is not true.
+Trust is built by repeating those deliveries, not by the excitement of starting.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/write-for-one) · 2026-10-23
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/show-when-done) · 2026-10-24
