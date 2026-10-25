@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## وقتی تمام شد نشان بده
+## کار اصلی، تشخیص است
 
-لازم نیست هر قدم را وسط راه اعلام کنی. یک خروجی قابل دیدن کافی است: یک صفحه، یک متن، یک نسخه.
+ابزار زیاد شده. فرق آدم‌ها در این است که چه چیزی را جدی بگیرند و چه چیزی را ول کنند.
 
-اعتماد از تکرار همین تحویل‌ها ساخته می‌شود، نه از هیجان شروع.
+این تشخیص با عجله به دست نمی‌آید. با دیدن نتیجهٔ کار قبلی به دست می‌آید.
 
-_Show it when it is done_
+_The job is judgment_
 
-You do not need to announce every step in the middle. One visible output is enough: a page, a note, a version.
+Tools are everywhere. The difference is what a person takes seriously and what they leave alone.
 
-Trust is built by repeating those deliveries, not by the excitement of starting.
+That judgment does not come from rushing. It comes from looking at how the last piece of work turned out.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/show-when-done) · 2026-10-24
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/taste-is-the-job) · 2026-10-25
