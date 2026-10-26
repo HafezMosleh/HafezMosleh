@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## کار اصلی، تشخیص است
+## نوشتن، کار را ثابت می‌کند
 
-ابزار زیاد شده. فرق آدم‌ها در این است که چه چیزی را جدی بگیرند و چه چیزی را ول کنند.
+یک یادداشت کوتاه، فکر را از حالت مبهم درمی‌آورد. مجبور می‌شوی انتخاب کنی کدام جمله بماند.
 
-این تشخیص با عجله به دست نمی‌آید. با دیدن نتیجهٔ کار قبلی به دست می‌آید.
+برای همین هر روز یک متن کوتاه بهتر از یک مقالهٔ فرضی است که هیچ‌وقت نوشته نمی‌شود.
 
-_The job is judgment_
+_Writing makes the work hold still_
 
-Tools are everywhere. The difference is what a person takes seriously and what they leave alone.
+A short note pulls a thought out of the fog. You have to choose which sentence stays.
 
-That judgment does not come from rushing. It comes from looking at how the last piece of work turned out.
+That is why one short text a day beats an imaginary essay that never gets written.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/taste-is-the-job) · 2026-10-25
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/public-notes) · 2026-10-26
