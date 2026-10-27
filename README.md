@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## نوشتن، کار را ثابت می‌کند
+## جایی باید آهسته باشی
 
-یک یادداشت کوتاه، فکر را از حالت مبهم درمی‌آورد. مجبور می‌شوی انتخاب کنی کدام جمله بماند.
+می‌شود سریع ساخت. نمی‌شود سریع فهمید که این نسخه به درد مخاطب خورده یا نه. آن فهم یک روز فاصله می‌خواهد.
 
-برای همین هر روز یک متن کوتاه بهتر از یک مقالهٔ فرضی است که هیچ‌وقت نوشته نمی‌شود.
+آهسته بودن تنبلی نیست. فاصله انداختن بین ساختن و قضاوت است.
 
-_Writing makes the work hold still_
+_Be slow on purpose_
 
-A short note pulls a thought out of the fog. You have to choose which sentence stays.
+You can build fast. You cannot quickly know whether this version helped anyone. That takes a day of distance.
 
-That is why one short text a day beats an imaginary essay that never gets written.
+Going slow is not laziness. It is a gap between making and judging.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/public-notes) · 2026-10-26
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/slow-on-purpose) · 2026-10-27
