@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## جایی باید آهسته باشی
+## آدم قبل از تکنولوژی
 
-می‌شود سریع ساخت. نمی‌شود سریع فهمید که این نسخه به درد مخاطب خورده یا نه. آن فهم یک روز فاصله می‌خواهد.
+اگر ندانی طرف چطور تصمیم می‌گیرد، بهترین ساخت هم بی‌استفاده می‌ماند. اول رفتار را ببین، بعد سیستم را بچین.
 
-آهسته بودن تنبلی نیست. فاصله انداختن بین ساختن و قضاوت است.
+این جمله را عوض نمی‌کنم، چون هر پروژه‌ای که جواب داده از همین‌جا شروع شده.
 
-_Be slow on purpose_
+_People before the stack_
 
-You can build fast. You cannot quickly know whether this version helped anyone. That takes a day of distance.
+If you do not know how someone decides, the best build still sits unused. Watch the behavior first, then arrange the system.
 
-Going slow is not laziness. It is a gap between making and judging.
+I keep this sentence, because every project that worked started there.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/slow-on-purpose) · 2026-10-27
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/people-before-stack) · 2026-10-28
