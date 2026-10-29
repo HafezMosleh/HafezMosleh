@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## آدم قبل از تکنولوژی
+## هر روز، همان ساعت
 
-اگر ندانی طرف چطور تصمیم می‌گیرد، بهترین ساخت هم بی‌استفاده می‌ماند. اول رفتار را ببین، بعد سیستم را بچین.
+انگیزه یک روز هست و یک روز نیست. ساعت ثابت می‌ماند. برای همین خروجی باید به ساعت وصل باشد، نه به حال.
 
-این جمله را عوض نمی‌کنم، چون هر پروژه‌ای که جواب داده از همین‌جا شروع شده.
+یک متن در روز، سر ساعت، از یک هفته سکوت و بعد یک انفجار بهتر است.
 
-_People before the stack_
+_The same hour, every day_
 
-If you do not know how someone decides, the best build still sits unused. Watch the behavior first, then arrange the system.
+Motivation shows up some days and not others. The hour stays. Output has to be tied to the hour, not to the mood.
 
-I keep this sentence, because every project that worked started there.
+One text a day, on time, beats a week of silence and then a burst.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/people-before-stack) · 2026-10-28
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/same-hour) · 2026-10-29
