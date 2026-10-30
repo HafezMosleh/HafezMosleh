@@ -4,16 +4,16 @@
 
 [hafezmosleh.dev](https://hafezmosleh.dev)
 
-## هر روز، همان ساعت
+## فردا همان کار است
 
-انگیزه یک روز هست و یک روز نیست. ساعت ثابت می‌ماند. برای همین خروجی باید به ساعت وصل باشد، نه به حال.
+لازم نیست فردا ایدهٔ تازه داشته باشی. لازم است همان جمله، همان اسم، و یک خروجی تازه روی میز باشد.
 
-یک متن در روز، سر ساعت، از یک هفته سکوت و بعد یک انفجار بهتر است.
+تکرار خسته‌کننده به نظر می‌رسد. از بیرون، استمرار دیده می‌شود.
 
-_The same hour, every day_
+_Tomorrow is the same work_
 
-Motivation shows up some days and not others. The hour stays. Output has to be tied to the hour, not to the mood.
+Tomorrow does not need a new idea. It needs the same sentence, the same name, and one new output on the table.
 
-One text a day, on time, beats a week of silence and then a burst.
+Repetition feels dull from the inside. From the outside, it reads as consistency.
 
-[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/same-hour) · 2026-10-29
+[یادداشت روی سایت](https://hafezmosleh.dev/fa/notes/again-tomorrow) · 2026-10-30
