@@ -1,8 +1,10 @@
 # حافظ مصلح
 
+حافظ مصلح، سازنده محصول و هم‌بنیان‌گذار نورا، تهران.
+
 **Hafez Mosleh** — سازنده محصول و استراتژیست رشد.
 
-[hafezmosleh.dev](https://hafezmosleh.dev)
+[hafezmosleh.dev/fa](https://hafezmosleh.dev/fa)
 
 ## فردا همان کار است
 
